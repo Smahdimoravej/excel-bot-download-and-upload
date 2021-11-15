@@ -7,7 +7,7 @@ from telegram import *
 from telegram import update
 from telegram.ext import *
 from telegram.ext import callbackcontext
-token = "1895042623:AAFpxW23oTtvIuIF70B6LoqNnW9vwbsT6Kw"
+token = "..."
 bot = Bot(token)
 updater = Updater(token, use_context=True)
 dispatcher: Dispatcher = updater.dispatcher
